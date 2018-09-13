@@ -4,9 +4,9 @@ import sagaPlugin from 'reactotron-redux-saga';
 
 
 const tron = Reactotron
-  .configure({ name: 'ReduxSaga', host: '192.168.89.131' })
+  .configure({ name: 'ReduxSaga', host: '192.168.0.108' })
   .useReactNative()
-  // .use(reactotronRedux())
+  .use(reactotronRedux())
   // .use(sagaPlugin())
   .connect();
 
